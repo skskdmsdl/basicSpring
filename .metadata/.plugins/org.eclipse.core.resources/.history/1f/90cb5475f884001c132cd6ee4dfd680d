@@ -11,7 +11,6 @@
 	<context:annotation-config />
 
 	<bean id="wordDao" class="autoInjection.com.word.dao.WordDao" >
-		<!-- 이름만으로 찾도록 하는 것보다 qualifier 속성으로 명시하여 찾도록 하는 것이 좋은 코딩 습관 -->
 		<!-- qualifier 어노테이션 사용시 -->
 		<!-- <qualifier value="usedDao"/> -->
 	</bean>
