@@ -12,7 +12,6 @@
 
 	<bean id="wordDao" class="autoInjection.com.word.dao.WordDao" >
 		<!-- 이름만으로 찾도록 하는 것보다 qualifier 속성으로 명시하여 찾도록 하는 것이 좋은 코딩 습관 -->
-		<!-- qualifier는 동일한 스프링 컨테이너에 같은 이름의 빈 객체가 여러개 생성시 구분(빈 객체 선택)을 위해 사용함 -->
 		<!-- qualifier 어노테이션 사용시 -->
 		<!-- <qualifier value="usedDao"/> -->
 	</bean>
