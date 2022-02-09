@@ -21,7 +21,7 @@ public class MainClass {
 		
 		//스프링 컨테이너 생성
 		GenericXmlApplicationContext ctx = 
-				new GenericXmlApplicationContext("classpath:appCtx.xml");
+				new GenericXmlApplicationContext("classpath:lifeCycle/appCtx.xml");
 		
 		// 더미 도서 목록 등록
 		BookRegisterService bookRegisterService = 
