@@ -3,4 +3,6 @@
 <fullyQualifiedTypeName name="basicSpring.TranspotationWalk"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.GenericApplicationContext"/>
 <fullyQualifiedTypeName name="basicSpring.TransportationWalk"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.InitializingBean"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.DisposableBean"/>
 </qualifiedTypeNameHistroy>
