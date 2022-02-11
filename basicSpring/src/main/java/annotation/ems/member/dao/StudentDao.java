@@ -1,9 +1,9 @@
-package ems.member.dao;
+package annotation.ems.member.dao;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import ems.member.Student;
+import annotation.ems.member.Student;
 
 public class StudentDao {
 

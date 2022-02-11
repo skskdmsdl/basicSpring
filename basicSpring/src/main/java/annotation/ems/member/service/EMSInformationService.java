@@ -1,11 +1,11 @@
-package ems.member.service;
+package annotation.ems.member.service;
 
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import ems.member.DataBaseConnectionInfo;
+import annotation.ems.member.DataBaseConnectionInfo;
 
 public class EMSInformationService {
 

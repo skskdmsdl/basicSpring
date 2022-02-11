@@ -1,15 +1,15 @@
-package ems.member.configration;
+package annotation.ems.member.configration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
-import ems.member.dao.StudentDao;
-import ems.member.service.StudentAllSelectService;
-import ems.member.service.StudentDeleteService;
-import ems.member.service.StudentModifyService;
-import ems.member.service.StudentRegisterService;
-import ems.member.service.StudentSelectService;
+import annotation.ems.member.dao.StudentDao;
+import annotation.ems.member.service.StudentAllSelectService;
+import annotation.ems.member.service.StudentDeleteService;
+import annotation.ems.member.service.StudentModifyService;
+import annotation.ems.member.service.StudentRegisterService;
+import annotation.ems.member.service.StudentSelectService;
 
 @Configuration
 @Import({MemberConfig2.class, MemberConfig3.class})

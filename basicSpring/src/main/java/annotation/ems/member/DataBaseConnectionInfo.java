@@ -1,4 +1,4 @@
-package ems.member;
+package annotation.ems.member;
 
 public class DataBaseConnectionInfo {
 	

@@ -1,4 +1,4 @@
-package ems.member.configration;
+package annotation.ems.member.configration;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -8,8 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import ems.member.DataBaseConnectionInfo;
-import ems.member.service.EMSInformationService;
+import annotation.ems.member.DataBaseConnectionInfo;
+import annotation.ems.member.service.EMSInformationService;
 
 @Configuration
 public class MemberConfig3 {

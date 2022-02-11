@@ -1,7 +1,7 @@
-package ems.member.service;
+package annotation.ems.member.service;
 
-import ems.member.Student;
-import ems.member.dao.StudentDao;
+import annotation.ems.member.Student;
+import annotation.ems.member.dao.StudentDao;
 
 public class StudentRegisterService {
 

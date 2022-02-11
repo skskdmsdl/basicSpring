@@ -1,4 +1,4 @@
-package ems.member;
+package annotation.ems.member;
 
 import java.util.Iterator;
 import java.util.Map;
@@ -7,11 +7,11 @@ import java.util.Set;
 
 import org.springframework.context.support.GenericXmlApplicationContext;
 
-import ems.member.service.EMSInformationService;
-import ems.member.service.StudentAllSelectService;
-import ems.member.service.StudentModifyService;
-import ems.member.service.StudentRegisterService;
-import ems.member.service.StudentSelectService;
+import annotation.ems.member.service.EMSInformationService;
+import annotation.ems.member.service.StudentAllSelectService;
+import annotation.ems.member.service.StudentModifyService;
+import annotation.ems.member.service.StudentRegisterService;
+import annotation.ems.member.service.StudentSelectService;
 
 public class MainClassUseXML {
 

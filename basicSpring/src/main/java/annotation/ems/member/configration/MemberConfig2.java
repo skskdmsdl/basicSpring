@@ -1,9 +1,9 @@
-package ems.member.configration;
+package annotation.ems.member.configration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import ems.member.DataBaseConnectionInfo;
+import annotation.ems.member.DataBaseConnectionInfo;
 
 @Configuration
 public class MemberConfig2 {
