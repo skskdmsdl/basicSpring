@@ -865,3 +865,4 @@
 2022-02-11 21:59:33,350 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-02-11 21:59:33,354 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
 2022-02-11 21:59:33,358 [Worker-15: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-02-11 21:59:33,359 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
