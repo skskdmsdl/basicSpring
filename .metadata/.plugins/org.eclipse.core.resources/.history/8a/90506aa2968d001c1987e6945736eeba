@@ -39,7 +39,6 @@ public class MainClassUseConfigration {
 				"Law", "Statistics", "Computer", "Economics", "Public Administration"};
 
 //		StudentAssembler assembler = new StudentAssembler();
-		// annotation을 사용하여 xml이 아닌 java파일로 스프링 설정 파일 만들것 임
 		AnnotationConfigApplicationContext ctx = 
 				new AnnotationConfigApplicationContext(MemberConfig.class);
 		
