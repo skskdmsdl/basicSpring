@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Configuration;
 import annotation.ems.member.DataBaseConnectionInfo;
 import annotation.ems.member.service.EMSInformationService;
 
+// Util에 해당되는 내용
 @Configuration
 public class MemberConfig3 {
 
