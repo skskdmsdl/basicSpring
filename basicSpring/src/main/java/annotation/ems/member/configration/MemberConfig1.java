@@ -10,6 +10,7 @@ import annotation.ems.member.service.StudentModifyService;
 import annotation.ems.member.service.StudentRegisterService;
 import annotation.ems.member.service.StudentSelectService;
 
+// DAO와 Service만 관리되는 설정 파일
 @Configuration
 public class MemberConfig1 {
 
