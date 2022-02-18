@@ -5,6 +5,7 @@ import org.springframework.context.annotation.Configuration;
 
 import annotation.ems.member.DataBaseConnectionInfo;
 
+// DataBase Connection만 관리되는 파일
 @Configuration
 public class MemberConfig2 {
 
