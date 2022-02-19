@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="basicSpring.TranspotationWalk"/>
-<fullyQualifiedTypeName name="org.springframework.context.support.GenericApplicationContext"/>
-<fullyQualifiedTypeName name="basicSpring.TransportationWalk"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.InitializingBean"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.DisposableBean"/>
-</qualifiedTypeNameHistroy>
