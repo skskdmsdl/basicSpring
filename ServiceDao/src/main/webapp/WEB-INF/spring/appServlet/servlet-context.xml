@@ -21,8 +21,9 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 	
-	<context:component-scan base-package="com.bs.ServiceDao" />
+	<context:component-scan base-package="com.bs.serviceDao" />
 	
-	
+	<!-- @Autowired 사용 보다 서비스 자체에 어노테이션 사용해서 쓰는 방법이 더 많이 쓰임 -->
+	<!-- <beans:bean id="service" class="com.bs.serviceDao.member.service.MemberService"></beans:bean> -->	
 	
 </beans:beans>

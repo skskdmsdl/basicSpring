@@ -1,4 +1,4 @@
-package com.bs.ServiceDao;
+package com.bs.serviceDao;
 
 import java.text.DateFormat;
 import java.util.Date;

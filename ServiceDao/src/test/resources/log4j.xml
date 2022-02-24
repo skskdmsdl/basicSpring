@@ -11,7 +11,7 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="com.bs.ServiceDao">
+	<logger name="com.bs.serviceDao">
 		<level value="info" />
 	</logger>
 	
