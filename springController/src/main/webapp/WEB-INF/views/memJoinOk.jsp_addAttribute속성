@@ -6,10 +6,10 @@
 </head>
 <body>
 	<h1> memJoinOk </h1>
-	ID : ${member.memId}<br />
-	PW : ${member.memPw}<br />
-	Mail : ${member.memMail} <br />
-	Phone : ${member.memPhone1} <br />
+	ID : ${memId}<br />
+	PW : ${memPw}<br />
+	Mail : ${memMail} <br />
+	Phone : ${memPhone} <br />
 	
 	<a href="/resources/html/memJoin.html"> Go MemberJoin </a>
 </body>
