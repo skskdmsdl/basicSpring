@@ -6,6 +6,7 @@ import javax.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -43,26 +44,26 @@ public class MemberController {
 		return "memJoinOk";
 	} */
 	
-	@RequestMapping(value="/memJoin", method=RequestMethod.POST)
+	/* @RequestMapping(value="/memJoin", method=RequestMethod.POST)
 	// member라는 커맨드 객체를 명시해 주는 걸 통해 장황한 코드 줄이기 => 자주 사용하는 방식
 	public String memJoin(Member member) {
-//		String memId = request.getParameter("memId");
-//		String memPw = request.getParameter("memPw");
-//		String memMail = request.getParameter("memMail");
-//		String memPhone1 = request.getParameter("memPhone1");
-//		String memPhone2 = request.getParameter("memPhone2");
-//		String memPhone3 = request.getParameter("memPhone3");
 		
 		service.memberRegister(member.getMemId(), member.getMemPw(), member.getMemMail(), 
 				member.getMemPhone1(), member.getMemPhone2(), member.getMemPhone3());
-		
-//		model.addAttribute("memId", memId);
-//		model.addAttribute("memPw", memPw);
-//		model.addAttribute("memMail", memMail);
-//		model.addAttribute("memPhone", memPhone1 + " - " + memPhone2 + " - " + memPhone3);
-		
+	
 		return "memJoinOk";
-	}
+	} */
+	
+	@RequestMapping(value="/memJoin", method=RequestMethod.POST)
+	// @ModelAttribute를 통해 member가 아닌 mem으로 view단에서 사용 가능
+	// java 코드에서는 member로 사용, view단에서는 mem으로 사용
+	public String memJoin(@ModelAttribute("mem") Member member) {
+		
+		service.memberRegister(member.getMemId(), member.getMemPw(), member.getMemMail(), 
+				member.getMemPhone1(), member.getMemPhone2(), member.getMemPhone3());
+	
+		return "memJoinOk";
+	} 
 	
 	
 	/* @RequestMapping(value="/memLogin", method=RequestMethod.POST)
