@@ -127,6 +127,7 @@
 		</dependency>  
 		
 		<!-- DB -->
+		<!-- oracle repository 추가한 이후 사용 가능 -->
 		<dependency>
             <groupId>com.oracle</groupId>
             <artifactId>ojdbc6</artifactId>
