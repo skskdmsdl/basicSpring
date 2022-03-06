@@ -1,4 +1,4 @@
-package com.ho.connectionPoll.config;
+package com.ho.connectionPool.config;
 
 import java.beans.PropertyVetoException;
 

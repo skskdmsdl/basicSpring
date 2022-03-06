@@ -1,10 +1,10 @@
-package com.ho.connectionPoll.member.service;
+package com.ho.connectionPool.member.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ho.connectionPoll.member.Member;
-import com.ho.connectionPoll.member.dao.MemberDao;
+import com.ho.connectionPool.member.Member;
+import com.ho.connectionPool.member.dao.MemberDao;
 
 @Service
 public class MemberService implements IMemberService {

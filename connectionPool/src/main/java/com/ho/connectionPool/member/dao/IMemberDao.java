@@ -1,6 +1,6 @@
-package com.ho.connectionPoll.member.dao;
+package com.ho.connectionPool.member.dao;
 
-import com.ho.connectionPoll.member.Member;
+import com.ho.connectionPool.member.Member;
 
 public interface IMemberDao {
 	int memberInsert(Member member);

@@ -1,4 +1,4 @@
-package com.ho.connectionPoll.member.dao;
+package com.ho.connectionPool.member.dao;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -11,7 +11,7 @@ import org.springframework.jdbc.core.PreparedStatementSetter;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
-import com.ho.connectionPoll.member.Member;
+import com.ho.connectionPool.member.Member;
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 
 @Repository

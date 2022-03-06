@@ -1,6 +1,6 @@
-package com.ho.connectionPoll.member.service;
+package com.ho.connectionPool.member.service;
 
-import com.ho.connectionPoll.member.Member;
+import com.ho.connectionPool.member.Member;
 
 public interface IMemberService {
 	void memberRegister(Member member);

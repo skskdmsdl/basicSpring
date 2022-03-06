@@ -1,4 +1,4 @@
-package com.ho.connectionPoll.member.controller;
+package com.ho.connectionPool.member.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.ho.connectionPoll.member.Member;
-import com.ho.connectionPoll.member.service.MemberService;
+import com.ho.connectionPool.member.Member;
+import com.ho.connectionPool.member.service.MemberService;
 
 
 @Controller

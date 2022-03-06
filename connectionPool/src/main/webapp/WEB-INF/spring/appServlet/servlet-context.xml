@@ -21,7 +21,7 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 	
-	<context:component-scan base-package="com.ho.connectionPoll" />
+	<context:component-scan base-package="com.ho.connectionPool" />
 	
 	<interceptors>
 		<interceptor>
@@ -37,7 +37,7 @@
 			<exclude-mapping path="/member/modify"/>
 			<exclude-mapping path="/member/remove"/>
 			-->
-			<beans:bean class="com.ho.connectionPoll.member.MemberLoginInterceptor"/>
+			<beans:bean class="com.ho.connectionPool.member.MemberLoginInterceptor"/>
 		</interceptor>
 	</interceptors>
 

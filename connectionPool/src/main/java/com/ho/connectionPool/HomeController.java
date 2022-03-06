@@ -1,4 +1,4 @@
-package com.ho.connectionPoll;
+package com.ho.connectionPool;
 
 import javax.servlet.http.HttpServletRequest;
 
